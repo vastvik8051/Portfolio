@@ -453,6 +453,16 @@ navbar{
     font-weight: 600;
 }
 
+.projects-section ul{
+    margin-top: 20px;
+    padding-left: 30px
+}
+
+.projects-section li{
+    margin-top: 5px;
+}
+
+
 
 
 /* responsive */
