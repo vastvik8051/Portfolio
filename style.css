@@ -557,3 +557,15 @@ navbar{
     }
 
 }
+
+.cell{
+    transition: transform .2s, box-shadow .2s;
+}
+
+.cell:hover{
+    transform: translateY(-8px) scale(1.05);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    background-color: white;
+}
