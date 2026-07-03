@@ -6,8 +6,6 @@ const skillCategories = [
     skills: [
       "HTML5",
       "CSS3",
-      "JavaScript",
-      "TypeScript",
       "React",
       "Next.js",
       "Tailwind CSS",
@@ -61,15 +59,18 @@ const skillCategories = [
       "C",
       "C++",
       "Python",
+      "JavaScript",
+      "TypeScript"
     ],
   },
   {
-    title: "Tools",
+    title: "Tools & Platforms:",
     skills: [
       "Git",
       "GitHub",
       "Postman",
       "Figma",
+      "Linux",
       "Arduino",
     ],
   },
