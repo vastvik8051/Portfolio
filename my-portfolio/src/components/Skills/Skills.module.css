@@ -20,6 +20,30 @@
     margin-bottom: 12px;
 }
 
+.headingRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    /* margin-bottom: 60px; */
+}
+
+.joke {
+    font-family: "Caveat", cursive;
+
+    font-size: 2rem;
+
+    color: rgba(184, 150, 90, .75);
+
+    transform: rotate(-3deg);
+
+    user-select: none;
+
+    white-space: nowrap;
+
+    opacity: .85;
+}
+
 .titleLine {
     width: 55px;
     height: 2px;
@@ -66,7 +90,7 @@
 
     color: var(--gold);
 
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 
     margin-bottom: 30px;
 
@@ -110,4 +134,38 @@
 
     transform: scale(1.05);
 
+}
+
+.pill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 11px 20px;
+
+    background: transparent;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 999px;
+
+    color: var(--text-secondary);
+
+    transition: .3s;
+}
+
+.icon {
+    font-size: 1.15rem;
+    transition: .3s;
+}
+
+.pill:hover {
+    border-color: var(--gold);
+    transform: translateY(-3px);
+    color: var(--text-primary);
+    background: rgba(184,150,90,.08);
+}
+
+.pill:hover .icon {
+    transform: rotate(10deg) scale(1.15);
 }

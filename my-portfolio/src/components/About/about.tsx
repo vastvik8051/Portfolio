@@ -6,8 +6,14 @@ export default function About() {
         <section className={styles.about} id="about">
 
             <div className={styles.imageSection}>
-    <img src={profile} alt="Vastvik Sharma" className={styles.profile} />
-</div>
+                <img src={profile} alt="Vastvik Sharma" className={styles.profile} />
+
+                <p className={styles.quote}>
+                    It's not a bug,
+                    <br />
+                    it's a feature.
+                </p>
+            </div>
 
             <div className={styles.content}>
                 <p className={styles.smallTitle}>ABOUT ME</p>

@@ -15,6 +15,7 @@
 }
 
 .imageSection{
+    position: relative;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -32,6 +33,29 @@
     border:2px solid var(--gold);
 }
 
+.quote {
+    position: absolute;
+
+    bottom: -25px;
+    right: -20px;
+
+    font-family: "Caveat", cursive;
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    color: aquamarine;
+
+    transform: rotate(-8deg);
+
+    user-select: none;
+
+    line-height: .9;
+
+    pointer-events: none;
+
+    z-index: 10;
+}
+
 .content h2{
     font-family:"Bebas Neue",sans-serif;
     font-size:4.5rem;
@@ -40,17 +64,6 @@
     margin:15px 0 30px;
     display: none;
 }
-
-/* .smallTitle{
-    color:var(--gold);
-
-    letter-spacing:5px;
-
-    font-size:2rem;
-    padding-bottom: 20px;
-    padding-top: 35px;
-    font-weight: 400;
-} */
 
 .smallTitle{
     color:var(--text-primary);
