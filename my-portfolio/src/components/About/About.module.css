@@ -1,0 +1,167 @@
+.about {
+    min-height: 65vh;
+
+    display: grid;
+    /* grid-template-columns: 350px 280px 440px; */
+    grid-template-columns: 320px 280px 1fr;
+
+    gap: 40px;
+
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background: var(--bg-primary);
+}
+
+.imageSection{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.imageSection img{
+    
+    width:420px;
+    height:320px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:2px solid var(--gold);
+}
+
+.content h2{
+    font-family:"Bebas Neue",sans-serif;
+    font-size:4.5rem;
+    line-height:.9;
+
+    margin:15px 0 30px;
+    display: none;
+}
+
+/* .smallTitle{
+    color:var(--gold);
+
+    letter-spacing:5px;
+
+    font-size:2rem;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    font-weight: 400;
+} */
+
+.smallTitle{
+    color:var(--text-primary);
+    font-size:2.2rem;
+    letter-spacing:3px;
+    font-family:"Bebas Neue", sans-serif;
+    margin-bottom:2px;
+}
+
+.text{
+    color:var(--text-secondary);
+max-width:280px;
+
+    font-size:1rem;
+    line-height:1.9;
+
+    margin-bottom:40px;
+}
+
+.signature{
+    font-family:cursive;
+    color:var(--gold);
+    font-size:2rem;
+    margin:25px 0;
+}
+
+.button{
+
+    padding:16px 36px;
+
+    border:1px solid var(--gold);
+
+    background:transparent;
+
+    color:var(--gold);
+
+    cursor:pointer;
+
+    transition:var(--transition);
+}
+
+.button:hover{
+
+    background:var(--gold);
+
+    color:var(--bg-primary);
+
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:18px;
+    align-items:stretch;
+}
+
+.card{
+    height:260px;
+    width: 130px;
+    padding:28px 18px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    border-radius:10px;
+
+    transition:.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: var(--gold);
+    box-shadow: 0 12px 35px rgba(0,0,0,.4);
+}
+
+.card h3{
+    font-size:1.5rem;
+    color:var(--gold);
+    margin-bottom:18px;
+}
+
+.card p{
+    color:var(--text-secondary);
+    text-transform:uppercase;
+    font-size:.82rem;
+    letter-spacing:2px;
+}
+
+.placeholder{
+
+    width:420px;
+    height:420px;
+
+    border-radius:50%;
+
+    border:2px dashed var(--border-light);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.titleLine {
+    width: 45px;
+    height: 2px;
+    background: var(--gold);
+    margin: -10px 0 28px;
+}

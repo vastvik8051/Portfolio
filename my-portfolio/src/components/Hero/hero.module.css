@@ -1,0 +1,93 @@
+.hero {
+    min-height: 100vh;
+    /* background: var(--bg-primary); */
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+
+    background: linear-gradient(rgba(9, 9, 9, .35), rgba(9, 9, 9, .55)),
+        url("../../assets/img/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.left {
+    width: 42%;
+    z-index: 2;
+}
+
+.right {
+    /* width: 58%; */
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.raven {
+    width: 100%;
+    width: min(100%, 1100px);
+    transform: translateX(-50px);
+    max-width: 950px;
+    object-fit: contain;
+    user-select: none;
+    pointer-events: none;
+    filter: drop-shadow(0 0 40px rgba(0, 0, 0, .6));
+}
+
+.intro {
+    color: var(--gold);
+    font-size: .9rem;
+    letter-spacing: 6px;
+    margin-bottom: 35px;
+}
+
+.name {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(8rem, 11vw, 11rem);
+    line-height: .85;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.name span{
+    /* color: var(--gold); */
+    color: red;
+}
+
+.description {
+    color: var(--gold);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+.description_two {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 55px;
+}
+
+.button {
+    background: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    padding: 18px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: .95rem;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background: var(--gold);
+    color: var(--bg-primary);
+    transform: translateY(-3px);
+}

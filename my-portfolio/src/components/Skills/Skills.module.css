@@ -1,0 +1,113 @@
+.skills {
+    min-height: 100vh;
+    padding: 50px 7%;
+
+    background: var(--bg-primary);
+}
+
+.smallTitle {
+    color: var(--gold);
+    font-size: .9rem;
+    letter-spacing: 5px;
+    margin-bottom: 4px;
+}
+
+.heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: var(--text-primary);
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.titleLine {
+    width: 55px;
+    height: 2px;
+    background: var(--gold);
+    margin-bottom: 20px;
+}
+
+.grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 28px;
+
+}
+
+.card {
+
+    background: var(--bg-card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 14px;
+
+    padding: 30px;
+
+    transition: var(--transition);
+    min-height: 260px;
+
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+    border-color: var(--gold);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.45);
+
+}
+
+.card h3 {
+
+    color: var(--gold);
+
+    font-size: 1.5rem;
+
+    margin-bottom: 30px;
+
+    font-weight: 600;
+
+}
+
+.skillList {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+}
+
+.skillList span {
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    background: transparent;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    color: var(--text-secondary);
+
+    font-size: .9rem;
+
+    transition: .3s;
+
+}
+
+.skillList span:hover {
+
+    background: var(--gold);
+
+    color: var(--bg-primary);
+
+    transform: scale(1.05);
+
+}
