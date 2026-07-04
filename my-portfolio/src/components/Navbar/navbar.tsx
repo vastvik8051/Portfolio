@@ -5,7 +5,7 @@ import NavLinks from "./navLinks";
 import MenuButton from "./menuButtons";
 import Container from "../container/container";
 
-import styles from "./navbar.module.css";
+import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
